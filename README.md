@@ -1,9 +1,6 @@
 # Puzzlesolverv1
 Can evaluate scrambled 2x2 image and return a string of the correct sequence
 
-Inspiration
-We chose this project because we thought it was going to be the most fun and rewarding challenge for us. In all honesty, we had no idea what we were getting into. We thought we had an idea of how this was going to work, but now as I reflect, we couldn't have been more wrong. This was all of my team's first hackathon, more than anything we knew were not the most skilled group in the room. We all have a love for programming and wanted to learn more and see what a hackathon would be like. I am glad to say that this event helped us learn so much, and catch up to speed on what's possible right now!
-
 What it does
 The code takes input of a puzzle-like picture shuffled into four pieces and returns a string with the correct order, such as '2013 or 0132'.
 
@@ -16,11 +13,14 @@ It took us a long time to import our dataset into a keras model. This is im sure
 Accomplishments that we're proud of
 Getting our data to run in an image classifier model was a huge win. Another big win was finally getting our accuracy score above 4.16%, it was a great feeling when our second epoch finally rose because that meant that it was better than randomly choosing. In that run, it ended around 50% accuracy after 3 epochs. After tweaking with the configuration of the model we were able to get our model to run at about ~76.55% accuracy.
 
+Inspiration
+We chose this project because we thought it was going to be the most fun and rewarding challenge for us. In all honesty, we had no idea what we were getting into. We thought we had an idea of how this was going to work, but now as I reflect, we couldn't have been more wrong. This was all of my team's first hackathon, more than anything we knew were not the most skilled group in the room. We all have a love for programming and wanted to learn more and see what a hackathon would be like. I am glad to say that this event helped us learn so much, and catch up to speed on what's possible right now!
+
 What we learned
 I learned that python has so many integrated libraries that you can pull from, you just have to know how to use them the right way. I better know what to look for when approaching a coding problem.
 
 What's next for Puzzle Solver
-We are going to implement a version of puzzle solver that will be able to take the string output, and recompile the original picture into the correct order. We want to be able to truly show off what we accomplished at this hackathon to our friends and family, and I believe that this would be the best way to do so. In addition, we will continue to tweak the model of the puzzle solver, and see how high we can get the accuracy to be. This was an amazing 24 hour challenge, but the puzzle solver hit tip of the iceberg for us.
+First we would like to try and add data augmentation to the training set, so that we can see if it will increase the accuracy score. We are going to implement a version of puzzle solver that will be able to take the string output, and recompile the original picture into the correct order. We want to be able to truly show off what we accomplished at this hackathon to our friends and family, and I believe that this would be the best way to do so. In addition, we will continue to tweak the model of the puzzle solver, and see how high we can get the accuracy to be. This was an amazing 24 hour challenge, but the puzzle solver hit tip of the iceberg for us.
 
 Built With:
 keras
